@@ -210,8 +210,6 @@ body {
         max-height: calc(100vh - 358px);
     }
 
-
-
     .person-info__name {
         font-size: 30px;
         line-height: 1;
