@@ -183,7 +183,7 @@ body {
     .person {
         flex-direction: column;
         height: inherit;
-        padding-top: 77px;
+        padding-top: 100px;
         justify-content: flex-start;
     }
 
@@ -196,11 +196,21 @@ body {
 
     .person-info__logo {
         max-width: 97px;
-    position: absolute;
-    top: 77px;
-    left: 50%;
-    transform: translate(-50%, 0);
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
+
+    .person-photo img {
+        max-height: calc(100vh - 262px);
+    }
+
+    .person-photo .small-photo {
+        max-height: calc(100vh - 358px);
+    }
+
+
 
     .person-info__name {
         font-size: 30px;
@@ -235,11 +245,11 @@ body {
     .person-info__social {
         width: 260px;
         justify-content: center;
-        margin: 0 auto 36px;
+        margin: 0 auto 8px;
     }
 
     .person-photo {
-        padding: 78px 21px 0;
+        padding: 0 21px;
         margin-top: 0;
     }
 
