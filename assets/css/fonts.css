@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Inerta';
+    src: url("./../fonts/Inerta-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inerta';
+    src: url("./../fonts/Inerta-SemiBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inerta';
+    src: url("./../fonts/Inerta-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
