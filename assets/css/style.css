@@ -277,11 +277,11 @@ body {
 
     @media screen and (-webkit-min-device-pixel-ratio:0){ 
         .person-photo img {
-            max-height: calc(100vh - 400px); /*400 safary (old 262px + 138px) = 400px*/
+            max-height: calc(100vh - 350px); /*400 safary (old 262px + 138px) = 400px    350*/
         }
     
         .person-photo .small-photo {
-            max-height: calc(100vh - 496px); /*  safary (old 358px + 138px) = 496px*/
+            max-height: calc(100vh - 430px); /*  safary (old 358px + 138px) = 496px   430*/
         }
     }
 }
