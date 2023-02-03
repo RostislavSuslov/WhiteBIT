@@ -212,7 +212,7 @@ body {
     }
 
     .person-photo img {
-        max-height: calc(100vh - 262px);
+        max-height: calc(100vh - 262px); /*400 safary*/
     }
 
     .person-photo .small-photo {
@@ -273,5 +273,15 @@ body {
         box-shadow: 0px -20px 15px 0px #181834;
         top: calc(100% + 5px);
         left: 0;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0){ 
+        .person-photo img {
+            max-height: calc(100vh - 400px); /*400 safary (old 262px + 138px) = 400px*/
+        }
+    
+        .person-photo .small-photo {
+            max-height: calc(100vh - 496px); /*  safary (old 358px + 138px) = 496px*/
+        }
     }
 }
