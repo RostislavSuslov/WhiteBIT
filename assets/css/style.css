@@ -178,7 +178,7 @@ body {
 }
 
 
-@media screen and (max-width: 991px) {
+@media screen and  (max-width: 991px) {
     html {
         width: 100%;
         height: 100%;
@@ -274,14 +274,19 @@ body {
         top: calc(100% + 5px);
         left: 0;
     }
-
-    @media screen and (-webkit-min-device-pixel-ratio:0){ 
-        .person-photo img {
-            max-height: calc(100vh - 350px); /*400 safary (old 262px + 138px) = 400px    350*/
-        }
     
-        .person-photo .small-photo {
-            max-height: calc(100vh - 430px); /*  safary (old 358px + 138px) = 496px   430*/
-        }
-    }
 }
+
+
+
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0){ 
+    .person-photo img {
+        max-height: calc(100vh - 350px);  
+    }
+
+    .person-photo .small-photo {
+        max-height: calc(100vh - 430px); 
+    }
+} 
+*/
