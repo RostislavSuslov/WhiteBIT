@@ -48,12 +48,13 @@ body {
 .person-photo img {
     max-width: 100%;
     height: auto;
-    max-height: 800px;
+    max-height: calc(100vh - 135px);
     z-index: 1;
 }
 
 .person-info {
-    padding: 0 21px 217px;
+    padding: 0 21px 20px;
+    margin-bottom: auto;
     margin-top: auto;
     width: 100%;
 }
