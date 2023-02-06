@@ -275,19 +275,21 @@ body {
         top: calc(100% + 5px);
         left: 0;
     }
-    
+
+
+    .safary .person-photo img {
+        max-height: calc(100vh - 350px);  
+    }
+
+    .safary .person-photo .small-photo {
+        max-height: calc(100vh - 430px); 
+    }
 }
 
 
 
 
 /* @media screen and (-webkit-min-device-pixel-ratio:0){ 
-    .person-photo img {
-        max-height: calc(100vh - 350px);  
-    }
-
-    .person-photo .small-photo {
-        max-height: calc(100vh - 430px); 
-    }
+   
 } 
 */
